@@ -1,0 +1,132 @@
+.one{
+      position:relative;
+      width:80%;
+      // border:1px solid;
+   }
+.two{
+      //border:2px solid purple;
+      position:absolute;
+      width:50%;
+      font-size:19px;
+      margin-left:15px;
+     
+   }
+.three{
+     // border:2px solid green;
+      width:50%;
+      right:0;
+      position:absolute;
+      font-size:19px;
+      margin-left:65px;
+      
+}
+.inpbtn{
+         width:270px;
+         height:35px;
+         border:1px solid grey
+         border-radius:6px;
+         color:grey;
+         margin-right:75px;
+        
+  }
+.inpbtn:focus{
+ 	        background-color:khaki;
+                color:maroon;
+
+}
+.submitbtn{
+            width:90px;
+            height:40px;
+            font-size:20px;
+            border-radius:3px;
+            font-family:san-serif;
+            background-color:blue;
+            color:white;
+            box-shadow:2px 3px 9px gray;
+}
+.submitbtn:hover{
+                 color:deeppink;
+                 background-color:white;
+
+}
+.parent1{
+         position:relative;
+         width:75%;
+       // border:1px solid;
+}
+.child1{
+        position:absolute;
+        right:10px;
+        // border:1px solid brown;
+}
+.container{
+           background-color:white;
+           border:1px solid black;
+           width:57%;
+           height:550px;
+           margin-left:250px;
+           margin-top:10px;
+           margin-bottom:200px;
+           padding-top:20px;
+           padding-left:10px;
+           border-radius:8px;
+           box-sizing:border-box;
+           box-shadow: 0px 2px 10px #708090;
+           border: none;
+           
+}
+.navbar{
+       text-align:center;
+       background-color:#FFBF00;
+       height:50px;
+       text-decoration:none;
+       padding-top:25px;
+}
+li{
+       display:inline;
+       text-decoration:none;
+       font-family:serif;
+       font-size:21px;
+       padding:40px;
+       padding-left:30px;
+       padding-right:60px;
+       padding-bottom:40px;
+       margin-bottom:25px;
+       color:white;
+       
+       
+}
+.donatebtn{
+            width:80px;
+            height:40px;
+            font-size:15px;
+            background-color:blue;
+            color:white;
+            border-radius:3px;
+            font-family:san-serif;
+            padding-left:5px;
+            padding-rigt:10px;
+          }
+.donatebtn:hover{
+           color:deeppink;
+           background-color:white;
+           font-size:17px;
+           width:85px;
+           height:45px;
+}
+a{
+	text-decoration:none;
+        cursor:pointer;
+        color:white;
+  }
+a:after{
+
+
+}
+a:hover{
+         color:firebrick;
+         transition:0.6s;
+}
+
+
+
